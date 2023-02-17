@@ -98,14 +98,19 @@ header {
 .web-development {
     display: flex;
     align-items: center;
+    margin: 200px 50px;
 }
 
 .web-div {
     padding: 0 100px;
     padding-top: 150px;
     padding-left: 100px;
+    padding-bottom: 130px;
 }
-
+.web-development img{
+    height: 505px;
+    width: 550px;
+}
 /* plan-styles */
 
 .plan-section {
@@ -116,7 +121,11 @@ header {
     display: flex;
     justify-content: center;
     gap: 86px;
+    text-align: center;
 }
+/* .plan-container, img {
+    text-align: center;
+} */
 
 .plan-title {
     font-weight: 700;
@@ -131,15 +140,25 @@ header {
     line-height: 29px;
 }
 .gridient-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
-.gridient {
-    background-image: url(../images/watch.png);
-    margin: 144px 0px 115px 60px;
+.gridient-container {
+    background:linear-gradient(#d13a35,#e4e0e070), url(../images/watch.png);
+    margin: 144px 60px 115px 60px;
+    height: 300px;
+    background-repeat: no-repeat;
+    text-align: left;
+    /* padding: 56px 0px 63px 61px; */
 }
-
+.gridient-container .section-title{
+    padding: 56px 618px 24px 0px;
+}
+.gridient-container, button{
+    padding-left: 63px;
+    /* padding-bottom: 101px; */
+}
 .footer-tag-container {
     display: flex;
     gap: 331px;
@@ -199,4 +218,5 @@ img {
     background: #FFFFFF;
     border-radius: 8px;
     padding: 20px 36px;
+    border: none;
 }
