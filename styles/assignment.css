@@ -58,11 +58,13 @@ header {
     /* text-align: left; */
     justify-content: right;
 }
-.previous-year-container{
+
+.previous-year-container {
     padding: 0 100px;
-    padding-top: 150px;   
+    padding-top: 150px;
 }
-.previous-year img{
+
+.previous-year img {
     padding-top: 70px;
 }
 
@@ -93,11 +95,12 @@ header {
 }
 
 /* web-development- */
-.web-development{
+.web-development {
     display: flex;
     align-items: center;
 }
-.web-div{
+
+.web-div {
     padding: 0 100px;
     padding-top: 150px;
     padding-left: 100px;
@@ -105,9 +108,95 @@ header {
 
 /* plan-styles */
 
-.plan-section{
+.plan-section {
     text-align: center;
 }
-.plan-container{
+
+.plan-container {
     display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 16px 0;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+.gridient-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gridient {
+    background-image: url(../images/watch.png);
+    margin: 144px 0px 115px 60px;
+}
+
+.footer-tag-container {
+    display: flex;
+    gap: 331px;
+    padding: 130px 130px;
+    background: #151414;
+}
+
+.connect-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.connect-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+a,
+img {
+    text-decoration: none;
+    display: flex;
+    gap: 17px;
+}
+
+.update-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.update input {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 21px 158px 22px 21px;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.btn-secondary {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    /* font-family: 'Inter' */
+    line-height: 24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 36px;
 }
