@@ -118,9 +118,6 @@ header {
     gap: 86px;
     text-align: center;
 }
-/* .plan-section, img {
-    padding-left: 40px;
-} */
 .plan-item img {
    margin-left: 40px;
 }
@@ -142,7 +139,6 @@ header {
 .gradient-container{
 }
 .gradient-container {
-    /* background:linear-gradient(to right, #d13a35,#e4e0e070), url(../images/watch.png); */
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
     margin: 144px 60px 115px 60px;
     height: 300px;
