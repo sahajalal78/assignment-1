@@ -121,8 +121,11 @@ header {
 /* .plan-section, img {
     padding-left: 40px;
 } */
-.plan-section, .plan-item, img{
-    text-align: center;
+.plan-item img {
+   margin-left: 40px;
+}
+#plan-image{
+    margin-left: 80px;
 }
 .plan-title {
     font-weight: 700;
