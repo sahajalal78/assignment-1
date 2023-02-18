@@ -136,9 +136,9 @@ header {
     font-size: 25px;
     line-height: 29px;
 }
-.gridient-container{
+.gradient-container{
 }
-.gridient-container {
+.gradient-container {
     /* background:linear-gradient(to right, #d13a35,#e4e0e070), url(../images/watch.png); */
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
     margin: 144px 60px 115px 60px;
@@ -147,10 +147,10 @@ header {
     text-align: left;
     border-radius: 8px;
 }
-.gridient-container .section-title{
+.gradient-container .section-title{
     padding: 56px 618px 24px 0px;
 }
-.gridient-container, button{
+.gradient-container, button{
     padding-left: 63px;
 }
 .footer-tag-container {
